@@ -11,12 +11,15 @@ public class checkbinary
 	num = sc.nextInt();
 	String binary = Integer.toString(num);
 	int isBinary = 0;
-    for (int i = 0; i < binary.length(); i++) {
-        if (binary.charAt(i) != '1' && binary.charAt(i) != '0') {
-            isBinary = 1;
-        }    
-    }
-    System.out.println("The number is:");
+	  
+    	for (int i = 0; i < binary.length(); i++) {
+             if (binary.charAt(i) != '1' && binary.charAt(i) != '0') {
+            	isBinary = 1;
+             }    
+        }
+	  
+        System.out.println("The number is:");
+	  
 	if (isBinary == 1) {
 	    System.out.print("Not Binary");
 	} else {
