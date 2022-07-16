@@ -11,12 +11,7 @@ public class statement_reverse {
         for (String x: split) {
             result = x + " " + result;
         }
-        System.out.println("The reverse is:");
-
-
-        /*write down your logic here*/
-        System.out.println(result);
-
+        System.out.println("The reverse is:" + result);
     }
 
 }
